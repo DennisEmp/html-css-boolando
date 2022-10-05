@@ -26,7 +26,8 @@
 }
 
 .orange img {
-    
+    width: 100px;
+    height: auto;
     display: flex;
     justify-items: center;
     align-items: baseline;
@@ -34,10 +35,24 @@
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1165px;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    
+
 }
 
+.row {
+    height: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 100%(/3);
+}
